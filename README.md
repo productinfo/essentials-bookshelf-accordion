@@ -1,7 +1,7 @@
 ShinobiEssentials Bookshelf Accordion (Objective-C)
 =====================
 
-A ShinobiEssentials Demo app showing how to set up the accordion component along with implementing its datasource and how to style it.
+A ShinobiEssentials demo app showing how to use an SEssentialsAccordion to display books on a bookcase. When a book's spine is tapped it opens up to show a UIView representing the book's cover.
 
 ![Screenshot](screenshot.png?raw=true)
 
