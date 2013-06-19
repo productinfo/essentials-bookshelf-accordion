@@ -23,6 +23,10 @@
 
 #define PADDING 10
 
+//  The BookShelfView class takes a Book object and extracts
+//  the book's information to make a book cover by editing
+//  and adding UILabels and a UIImageView. This UIView representing
+//  a book cover appears when a SEssentialsAccordionSection is opened.
 @implementation BookShelfView {
     Book *_book;
     
@@ -47,6 +51,7 @@
     return self;
 }
 
+// Edits its UIView (self) using the information from the passed in Book object to create a book cover
 -(void) setupView {
     _titleLabel = [[UILabel alloc] initWithFrame:CGRectMake(50,
                                                            3*PADDING,

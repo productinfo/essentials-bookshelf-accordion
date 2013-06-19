@@ -1,7 +1,7 @@
 ShinobiEssentials Bookshelf Accordion (Objective-C)
 =====================
 
-A ShinobiEssentials Demo app showing how to use the accordion component.
+A ShinobiEssentials Demo app showing how to set up the accordion component along with implementing its datasource and how to style it.
 
 ![Screenshot](screenshot.png?raw=true)
 

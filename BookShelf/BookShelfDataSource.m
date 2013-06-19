@@ -28,6 +28,9 @@
 #define BOOKSHELF_VIEW_HEIGHT 668
 #define BOOKSHELF_VIEW_WIDTH 350
 
+//  The BookShelfDataSource class supplies an SEssentialsAccordion with all its sections
+//  created using the array of books in the BookShelfArchive class. It also returns the views
+//  for each section when it has been opened.
 @implementation BookShelfDataSource {
     NSMutableDictionary *_dataMapping;
     BookShelfArchive *_archive;
@@ -46,6 +49,7 @@
     return self;
 }
 
+// Creates a SEssentialsAccordionSection for each book in the BookShelfArchive
 -(void)setupData {
     for(int i = 0; i<[_archive books].count;i++){
         Book *book = [_archive books][i];
@@ -71,6 +75,7 @@
     }
 }
 
+// Returns the UIView that will appear when a specific section is opened.
 -(UIView *)accordion:(SEssentialsAccordion *)accordion contentForSection:(SEssentialsAccordionSection *)section
 {    
     return [_dataMapping objectForKey:[NSValue valueWithPointer:CFBridgingRetain(section)]];

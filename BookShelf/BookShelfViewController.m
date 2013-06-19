@@ -68,9 +68,13 @@
     _accordion.dataSource = _dataSource;
     [_accordion addSectionsFromArray:[_dataSource sections]];
     
+    // Set the accordion delegate
     _accordion.delegate = self;
+    
+    // Style Accordion
     [_accordion setType:SEssentialsAccordionTypeFlexible];
     [[_accordion layer] setBorderWidth:2];
+    
     [self.view addSubview:_accordion];
     
     // Set up shelf image view

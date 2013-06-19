@@ -22,6 +22,10 @@
 #import "BookShelfArchive.h"
 #import "Book.h"
 
+//  The BookShelfArchive class turns raw data into Book objects then
+//  stores each book in an array. This array can then be accessed by the
+//  BookShelfDataSource Class to extract the data needed so it can be displayed
+//  on the SEssentialsAccordion.
 @implementation BookShelfArchive
 
 - (id)init {
@@ -32,6 +36,7 @@
     return self;
 }
 
+// Turns raw data into Book objects and adds them to the _books array
 -(void)setupData {
     NSArray *titles = @[@"A Developer's Bible",
                         @"Create Your Own ShinobiChart Part I",
