@@ -57,7 +57,7 @@
                                                                         0,
                                                                         self.view.bounds.size.height - 100,
                                                                         self.view.bounds.size.width)];
-    // Rotates moves accordionm into position
+    // Rotates and moves the accordion into position
     CGAffineTransform rotate = CGAffineTransformMakeRotation(0 - (M_PI / 2));
     CGAffineTransform translate = CGAffineTransformMakeTranslation(-88, -88);
     _accordion.transform = CGAffineTransformConcat(translate, rotate);
