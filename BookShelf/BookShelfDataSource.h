@@ -21,7 +21,7 @@
 
 #import "BookShelfArchive.h"
 
-#import <ShinobiEssentials/SEssentialsAccordionDataSource.h>
+#import <ShinobiEssentials/SEssentialsAccordion.h>
 
 @interface BookShelfDataSource : NSObject <SEssentialsAccordionDataSource>
 

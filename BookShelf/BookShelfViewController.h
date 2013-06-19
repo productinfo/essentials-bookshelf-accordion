@@ -19,8 +19,7 @@
 //  limitations under the License.
 //
 
-#import <ShinobiEssentials/SEssentials.h>
-#import <ShinobiEssentials/SEssentialsAccordionDelegate.h>
+#import <ShinobiEssentials/SEssentialsAccordion.h>
 
 @interface BookShelfViewController : UIViewController <SEssentialsAccordionDelegate>
 

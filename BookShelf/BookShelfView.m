@@ -21,8 +21,6 @@
 
 #import "BookShelfView.h"
 
-#import <QuartzCore/QuartzCore.h>
-
 #define PADDING 10
 
 @implementation BookShelfView {
