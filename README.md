@@ -5,6 +5,8 @@ A ShinobiEssentials demo app showing how to use an SEssentialsAccordion to displ
 
 ![Screenshot](screenshot.png?raw=true)
 
+There's a [blog post](http://www.shinobicontrols.com/blog/posts/2013/11/12/shinobiessentials-an-accordion-off-the-shelf/) to accompany this project.
+
 Building the project
 ------------------
 
