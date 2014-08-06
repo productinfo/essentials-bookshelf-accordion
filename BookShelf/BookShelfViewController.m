@@ -55,11 +55,11 @@
     // Set up accordion
     _accordion = [[SEssentialsAccordion alloc] initWithFrame:CGRectMake(0,
                                                                         0,
-                                                                        self.view.bounds.size.height - 100,
+                                                                        self.view.bounds.size.height,
                                                                         self.view.bounds.size.width)];
     // Rotates and moves the accordion into position
     CGAffineTransform rotate = CGAffineTransformMakeRotation(0 - (M_PI / 2));
-    CGAffineTransform translate = CGAffineTransformMakeTranslation(-88, -88);
+    CGAffineTransform translate = CGAffineTransformMakeTranslation(-100, -130);
     _accordion.transform = CGAffineTransformConcat(translate, rotate);
     
     // Set up accordions datasource

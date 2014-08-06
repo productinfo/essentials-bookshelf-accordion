@@ -45,7 +45,7 @@
         
         // Rotate and translate view into position
         CGAffineTransform rotate = CGAffineTransformMakeRotation(M_PI / 2);
-        CGAffineTransform translate = CGAffineTransformMakeTranslation(0, -145);
+        CGAffineTransform translate = CGAffineTransformMakeTranslation(0, -200);
         self.transform = CGAffineTransformConcat(translate, rotate);
     }
     return self;

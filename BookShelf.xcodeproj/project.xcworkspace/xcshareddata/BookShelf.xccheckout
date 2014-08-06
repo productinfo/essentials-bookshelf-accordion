@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>C6DB8BC3-73D8-4EF4-AB3C-A7332E805450</string>
+	<key>IDESourceControlProjectName</key>
+	<string>BookShelf</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>E2A29230-FBBA-4D95-9D7E-BA79A0001FB0</key>
+		<string>https://github.com/ShinobiControls/essentials-bookshelf-accordion.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>BookShelf.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>E2A29230-FBBA-4D95-9D7E-BA79A0001FB0</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/ShinobiControls/essentials-bookshelf-accordion.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>E2A29230-FBBA-4D95-9D7E-BA79A0001FB0</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E2A29230-FBBA-4D95-9D7E-BA79A0001FB0</string>
+			<key>IDESourceControlWCCName</key>
+			<string>essentials-bookshelf-accordion</string>
+		</dict>
+	</array>
+</dict>
+</plist>

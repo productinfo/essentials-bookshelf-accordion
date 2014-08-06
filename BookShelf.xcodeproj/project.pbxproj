@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		686A164B19923B8500759B0A /* ShinobiEssentials.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 686A164A19923B8500759B0A /* ShinobiEssentials.framework */; };
 		9B21246E175600A300519822 /* wood_texture.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B21246D175600A300519822 /* wood_texture.png */; };
 		9B3BB79F174FA82500AFFC9B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B3BB79E174FA82500AFFC9B /* UIKit.framework */; };
 		9B3BB7A1174FA82500AFFC9B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B3BB7A0174FA82500AFFC9B /* Foundation.framework */; };
@@ -33,6 +34,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		686A164A19923B8500759B0A /* ShinobiEssentials.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ShinobiEssentials.framework; path = Library/Frameworks/ShinobiEssentials.framework; sourceTree = DEVELOPER_DIR; };
 		9B21246D175600A300519822 /* wood_texture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wood_texture.png; sourceTree = "<group>"; };
 		9B3BB79B174FA82500AFFC9B /* BookShelf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookShelf.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B3BB79E174FA82500AFFC9B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -72,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				686A164B19923B8500759B0A /* ShinobiEssentials.framework in Frameworks */,
 				9B3BB79F174FA82500AFFC9B /* UIKit.framework in Frameworks */,
 				9B3BB7C2174FAB7A00AFFC9B /* Security.framework in Frameworks */,
 				9B3BB7A1174FA82500AFFC9B /* Foundation.framework in Frameworks */,
@@ -104,6 +107,7 @@
 		9B3BB79D174FA82500AFFC9B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				686A164A19923B8500759B0A /* ShinobiEssentials.framework */,
 				9B815CA61754A6450075B02D /* QuartzCore.framework */,
 				9B3BB7C0174FA97300AFFC9B /* Security.framework */,
 				9B3BB79E174FA82500AFFC9B /* UIKit.framework */,
@@ -319,7 +323,7 @@
 		9B3BB7BE174FA82500AFFC9B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = "";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_FRAMEWORKS_DIR)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BookShelf/BookShelf-Prefix.pch";
 				INFOPLIST_FILE = "BookShelf/BookShelf-Info.plist";
@@ -331,7 +335,7 @@
 		9B3BB7BF174FA82500AFFC9B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = "";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_FRAMEWORKS_DIR)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BookShelf/BookShelf-Prefix.pch";
 				INFOPLIST_FILE = "BookShelf/BookShelf-Info.plist";
